@@ -7,11 +7,11 @@ var speedMultiplier = 1.1;
 var oldPosition = 0;
 var oldPositionChecked = false;
 
-function nextPage(pageName = "mainpage.html") {
+function nextPage(pageName = "index.html") {
         window.location.href = pageName;
 }
 
-function animationOut(pageName = "mainpage.html") {
+function animationOut(pageName = "index.html") {
     let someStopCondition = 600;
     let currentPosition = parseInt(getComputedStyle(movingObject).left);
     initialSpeed *= speedMultiplier;
