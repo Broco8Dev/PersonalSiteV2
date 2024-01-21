@@ -4,6 +4,10 @@
     position:relative;
     opacity: 0;
   }
+
+  #screenScalable {
+
+  }
   
   #button {
     opacity: 0;
@@ -15,7 +19,7 @@
     font-weight: 850;
     color: white;
     text-align: left;
-    font-size: 350%;
+    font-size: 4.5vw;
     text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.468);
     margin-bottom: -4%;
     margin-left: 140px;
@@ -26,7 +30,7 @@
     font-weight: 800;
     color: white;
     text-align: left;
-    font-size: 110%;    
+    font-size: 2.9vh;    
     letter-spacing: 0px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
     opacity: 75%;
@@ -38,7 +42,7 @@
     font-weight: 300;
     color: white;
     text-align: left;
-    font-size: 90%;    
+    font-size: 2.2vh;    
     letter-spacing: 0px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
     opacity: 40%;
@@ -47,12 +51,14 @@
 
   .profile-img-container {
     position:absolute;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
   }
 
   .profile-img-container {
     margin-top: 25px;
     margin-right: 50px;
-    width: 120px;
+    max-width: 17.15vh; /* Make the image responsive */
     height: auto;
     border-radius: 25px;
   }
@@ -61,8 +67,8 @@
     position: absolute;
     margin-top: 25px;
     margin-right: 50px;
-    width: 120px; /* Adjust as needed */
-    height: auto; /* Adjust as needed */
+    max-width: 17.15vh; /* Make the image responsive */
+    height: auto;
     border-radius: 25px;
     -webkit-filter: blur(5px);
   }
